@@ -1,0 +1,124 @@
+.tasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 736px;
+
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+
+
+
+.tasks form {
+  display: flex;
+  gap: 8px;
+}
+
+.tasks input {
+  display: flex;
+  width: 606px;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 8px;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-300);
+}
+
+.tasks input:focus {
+  outline: transparent;
+  border: 1px solid var(--PurpleDark, #5e60ce);
+  color: var(--gray-100);
+}
+
+.tasks button[type="submit"] {
+  display: flex;
+  height: 4rem;
+  background: var(--blue-dark);
+  color: var(--white);
+  border-radius: 8px;
+  border: 0px;
+  font-weight: bold;
+  padding: 16px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.tasks button[type="submit"]:hover {
+  background: var(--blue);
+}
+
+
+
+
+/* ============================ */
+.listtask {
+  display: flex;
+  width: 736px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  background: var(--gray-600);
+  margin: 4rem auto 0;
+}
+
+.listtask header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.listtask header p {
+  display: flex;
+  color: var(--Blue, #4ea8de);
+  font-weight: bold;
+  gap: 8px;
+}
+
+.listtask header p span {
+  color: var(--Gray-200, #d9d9d9);
+  border-radius: 999px;
+  background: var(--gray-400);
+  padding: 2px 8px;
+  /* line-height: 0.8; */
+}
+
+.listtask main {
+  width: 100%;
+  min-height: 100vh; 
+}
+
+.listtask footer {
+  display: flex;
+  padding: 64px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+.listtask footer p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.listtask footer span {
+  text-align: center;
+}
+
+.listtask footer img {
+  text-align: center;
+  margin-bottom: 16px;
+}

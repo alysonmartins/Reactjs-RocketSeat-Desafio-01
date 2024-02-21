@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--gray-700);
+  padding: 2rem;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.footer a {
+  color: var(--gray-100);
+  transition: 0.3s color;
+  
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}
+
+.footer svg.heart {
+  color: var(--purple-dark);
+}

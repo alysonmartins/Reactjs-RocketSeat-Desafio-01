@@ -9,7 +9,9 @@
   margin-top: calc(0px - 1.5rem - 6px);
 }
 
-
+.noTask {
+  text-align: center;
+}
 
 
 .tasks form {

@@ -156,9 +156,9 @@ export function Todo() {
                 }
               </div>
             ) : (
-              <div>
+              <div className={styles.noTask}>
                 <ClipboardText size={56} color="#333333" />
-                <div className={styles.messages}>
+                <div>
                   <strong> Você ainda não tem tarefas cadastradas </strong>
                   <p> Crie tarefas e organize seus itens a fazer </p>
                 </div>
